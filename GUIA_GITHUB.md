@@ -19,12 +19,16 @@ En la terminal (símbolo del sistema, PowerShell o Git Bash):
 git clone https://github.com/<usuario>/<nombre-del-repo>.git
 cd <nombre-del-repo>
 
+---
+
 ## 🔹 3. Crear una rama de trabajo
 ⚠️ Nunca trabajamos directo en main.
 Cada tarea se hace en una rama nueva.
 git checkout -b feature/nombre-de-la-tarea
 Ejemplo:
 git checkout -b feature/crud-alumnos
+
+---
 
 ## 🔹 4. Hacer cambios
 1- Editá el código o archivos según la tarea asignada.
@@ -34,12 +38,18 @@ git add .
 git commit -m "Descripción corta del cambio realizado"
 Ejemplo: git commit -m "feat: implementar CRUD de alumnos"
 
+---
+
 ## 🔹 5. Subir los cambios a GitHub
 git push origin feature/nombre-de-la-tarea
 Esto envía tu rama al repositorio en GitHub.
+
+---
 
 ## 🔹 6. Abrir un Pull Request (PR)
 1- Ir al repositorio en GitHub.
 2- Aparecerá un cartel: “Compare & pull request”.
 3- Completar la plantilla de PR.
 4- Esperar revisión → aprobación → merge a main.
+
+---
